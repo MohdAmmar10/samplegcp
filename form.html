@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+      Rent Cafe | Login
+	</title>
+	<style>
+	html{
+	height: 100%;
+	width: 100%;
+	background-color: lightgreen;
+	}
+	body{
+		background-color: lightgreen !important;
+	}
+.container_form {
+    display: flex;
+    width: 400px;
+	padding: 10px 40px;
+	margin: 50px 450px !important; 
+    background-color: white;
+    border-radius: 40px;
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.form {
+    display: flex;
+    align-items: center;
+}
+h2 {
+    font-weight: 700 !important;
+    margin-bottom: 0px;
+}
+label {
+    font-size: large;
+    font-weight: 600;
+}
+input[type=text],input[type=password],input[type=email] {
+    width: 220px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    display: inline-block;
+}
+.subm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.btn-primary {
+    border-radius: 8px !important;
+    width: 85px !important;
+    height: 35px !important;
+    background-color: #5068A9 !important;
+}
+
+#back, #submit {
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.3);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.3);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.3);
+}
+	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="row container_form text-center">
+        <center>
+		<h2>LOGIN</h2><br>	
+        <label for="email">Email&emsp;&emsp;</label>
+        <input type="email" id="email1" name="email" placeholder="Enter Email" autocomplete="OFF">
+        <br><br>
+        <label for="pass">Password </label>
+        <input type="password" id="pass" name="pass" placeholder="Enter Password" autocomplete="OFF">
+		<br>
+		<br>
+        <div class="subm">
+        	<button type="submit" id="clear" onclick="myFunction()" class="btn btn-primary cl">LOGIN</button>
+        </div> 
+		</center>
+	<script>
+	function myFunction() {
+		alert("Login sucessful");
+	}
+	</script>
+</body>
+
+</html>
